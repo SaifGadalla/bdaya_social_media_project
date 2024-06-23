@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package bdaya.social_media_trainig.v1;
+
+import "google/protobuf/wrappers.proto";
+
+message CreatePostReactiveDto{
+    string id = 1;
+    repeated PostFormDto postforms = 2;
+}
+
+message PostFormDto{
+    string id = 1;
+    google.protobuf.StringValue postContent = 2;
+}

@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package bdaya.social_media_trainig.v1;
+
+import "bdaya/social_training/v1/user.proto";
+import "bdaya/social_training/v1/common.proto";
+import "bdaya/social_training/v1/post.proto";
+import "google/protobuf/wrappers.proto";
+
+message UserDto{
+    string id = 1;
+    bdaya.social_training.v1.UserInfo userInfo = 2;
+    bool isBanned = 3;
+}
+
+message UsersResponse {
+    repeated UserDto users = 1;
+    google.protobuf.StringValue nextPageToken = 2;
+}

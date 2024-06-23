@@ -1,0 +1,10 @@
+version: v1
+name: buf.build/bdaya-dev/social-media-training-local
+breaking:
+  use:
+    - FILE
+lint:
+  use:
+    - DEFAULT
+deps:
+  - buf.build/bdaya-dev/social-media-training
