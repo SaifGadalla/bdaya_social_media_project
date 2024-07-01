@@ -31,7 +31,7 @@ dependencies:
   protobuf: ^3.1.0
   reactive_forms: ^17.0.1
   reactive_forms_annotations: ^5.0.0
-  reactive_image_picker: ^5.0.1
+  reactive_image_picker: ^5.0.5
   shared_preferences: ^2.2.2
 
 
