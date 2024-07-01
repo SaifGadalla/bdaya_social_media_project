@@ -25,7 +25,7 @@ dependencies:
   infinite_scroll_pagination: ^4.0.0
   injectable: ^2.3.5
   intl: any
-  oidc: ^0.5.2
+  oidc: ^0.7.0
   oidc_default_store: ^0.2.0+8
   popover: ^0.3.0
   protobuf: ^3.1.0
